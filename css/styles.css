@@ -341,7 +341,7 @@ nav::after {
 .status-box {
   display: inline-block;
   text-align: center;
-  width: 24.5%; /* Alguns browsers não fazem o calculo correto para 25% nos 4 boxes entao como hack usa-se valor aproximado */
+  width: 24.5%; /* Some browsers do not calculate correctly for 25% in the 4 boxes, so as a css hack, an approximate value is used */
   margin-top: 80px;
   border-left: 1px solid #DDD;
   border-right: 1px solid #DDD;
