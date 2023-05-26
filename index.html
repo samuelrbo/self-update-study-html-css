@@ -28,9 +28,163 @@
         <nav>
           <div class="nav-container">
             <img id="logo" src="img/logo.png" alt="JobFinder" />
+            <ul>
+              <li><a href="#">Encontrar vaga</a></li>
+              <li><a href="#">Enviar vaga</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
           </div>
         </nav>
+        <div id="main-banner">
+          <div id="search-form">
+            <h1>A maneira mais fácil de encontrar seu novo emprego</h1>
+            <p>
+              Conecte-se de forma gratuita às melhores empresas e consiga o
+              emprego dos seus sonhos
+            </p>
+            <form>
+              <input type="text" name="job" placeholder="Digite o cargo" />
+              <select name="region">
+                <option value="">Todos os estados</option>
+              </select>
+              <select name="category">
+                <option value="">Categoria</option>
+              </select>
+              <input type="submit" value="Pesquisar" />
+            </form>
+          </div>
+        </div>
       </header>
+
+      <main id="lastjobs-container" class="wrapper">
+        <h1>Últimas vagas enviadas</h1>
+        <ul>
+          <li>
+            <a href="#" class="clickarea">
+              <div class="company-box">
+                <img src="img/googlelogo.png" alt="googlelogo" />
+                <div class="company-info">
+                  <h3>Developer</h3>
+                  <p>Google</p>
+                </div>
+              </div>
+              <div class="locality">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Mountain View, California</p>
+              </div>
+              <div class="job-type">
+                <span class="clt">CLT</span>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="clickarea">
+              <div class="company-box">
+                <img src="img/ibmlogo.png" alt="ibmlogo" />
+                <div class="company-info">
+                  <h3>DBA</h3>
+                  <p>IBM</p>
+                </div>
+              </div>
+              <div class="locality">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Armonk, New York</p>
+              </div>
+              <div class="job-type">
+                <span class="pj">PJ</span>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="clickarea">
+              <div class="company-box">
+                <img src="img/linkedinlogo.png" alt="linkedinlogo" />
+                <div class="company-info">
+                  <h3>Frontend Developer</h3>
+                  <p>Linkedin</p>
+                </div>
+              </div>
+              <div class="locality">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Sunnyvalle, California</p>
+              </div>
+              <div class="job-type">
+                <span class="homeoffice">Home Office</span>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="clickarea">
+              <div class="company-box">
+                <img src="img/facebooklogo.png" alt="facebooklogo" />
+                <div class="company-info">
+                  <h3>Fullstack Developer</h3>
+                  <p>Facebook</p>
+                </div>
+              </div>
+              <div class="locality">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Menlo Park, California</p>
+              </div>
+              <div class="job-type">
+                <span class="pj">PJ</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+
+        <div class="btnjobs-container">
+          <a href="#" class="btn-jobs">Ver mais vagas</a>
+        </div>
+      </main>
+
+      <section id="sendjobs-container">
+        <div id="sendjobs-inner" class="wrapper">
+          <h2>Envie uma vaga que será vista por milhares de candidatos</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu
+            massa, fermentum ac molestie vitae, sollicitudin a dolor. Donec
+            feugiat lacus non libero volutpat, sed lobortis metus faucibus.
+            Nulla tortor dolor, viverra non dapibus vel, molestie nec nulla.
+          </p>
+          <a href="#" class="light-btn">Enviar vaga</a>
+        </div>
+      </section>
+
+      <section id="status-container" class="wrapper">
+        <h2 class="title-center">Estatistica do JobFinder</h2>
+        <p class="p-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu
+          massa, fermentum ac molestie vitae, sollicitudin a dolor. Donec
+          feugiat lacus non libero volutpat, sed lobortis metus faucibus. Nulla
+          tortor dolor, viverra non dapibus vel, molestie nec nulla.
+        </p>
+
+        <div>
+          <div class="status-box">
+            <span class="status-qtd">150</span>
+            <span class="status-text">Vagas abertas</span>
+          </div>
+
+          <div class="status-box">
+            <span class="status-qtd">250</span>
+            <span class="status-text">Candidatos contratados</span>
+          </div>
+
+          <div class="status-box">
+            <span class="status-qtd">50</span>
+            <span class="status-text">Empresas participantes</span>
+          </div>
+
+          <div class="status-box">
+            <span class="status-qtd">550</span>
+            <span class="status-text">Vagas abertas</span>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>
